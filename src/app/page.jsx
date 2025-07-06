@@ -7,7 +7,7 @@ export default function Home() {
           <br />
         </h1>
         <p>
-          Todas as informações necessárias realização do trabalho encontra-se no
+          Todas as informações testenecessárias realização do trabalho encontra-se no
           arquivo <span className="">README.md</span>
         </p>
       </main>
