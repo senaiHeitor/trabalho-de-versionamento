@@ -12,12 +12,20 @@ export default function Home() {
           Todas as informações necessárias realização do trabalho encontra-se no
           arquivo <span className="">README.md</span>
         </p>
-        <Link
-          href="/clientes"
-          className="mt-8 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
-        >
-          Ir para Clientes
-        </Link>
+        <div className="flex gap-4 mt-8">
+          <Link
+            href="/clientes"
+            className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-gray-700 transition"
+          >
+            Ir para Clientes
+          </Link>
+          <Link
+            href="/produtos"
+            className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-gray-700 transition"
+          >
+            Ir para Produtos
+          </Link>
+        </div>
       </main>
     </>
   );
