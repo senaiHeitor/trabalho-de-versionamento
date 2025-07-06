@@ -25,6 +25,12 @@ export default function Home() {
           >
             Ir para Produtos
           </Link>
+           <Link
+            href="/produtos"
+            className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-gray-700 transition"
+          >
+            Ir para Eventos
+          </Link>
         </div>
       </main>
     </>
