@@ -1,7 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 export default function PaginaProdutos() {
-     const router = useRouter();
+      const router = useRouter();
   return (
     <>
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
