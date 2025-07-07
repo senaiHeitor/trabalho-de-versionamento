@@ -1,12 +1,12 @@
 "use client";
 import { useRouter } from "next/navigation";
-export default function PaginaSobreNos() {
-     const router = useRouter();
+export default function PaginaClientes() {
+    const router = useRouter();
   return (
     <>
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <h1>
-          Seja bem-vindo a Página Sobre Nós do Trabalho de Versionamento de Software!
+          Seja bem-vindo a Página de Contato do Trabalho de Versionamento de Software!
           <br />
         </h1>
          <button
